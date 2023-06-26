@@ -3,3 +3,4 @@ uvicorn
 alembic
 pytest
 fastapi-pagination
+psycopg2
