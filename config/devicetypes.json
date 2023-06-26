@@ -1,0 +1,669 @@
+{
+  "data": [
+    {
+      "name": "Smart Sensor",
+      "group_type_number": 4,
+      "id": "0522779a-8c95-4486-9296-ffb082fa5b6d",
+      "image_uri": "https://huepress.vn/images/device_group_types/default.png",
+      "created": "2022-09-07T21:17:55+07:00",
+      "updated": null,
+      "device_types": [
+        {
+          "id": "28da81e2-71dd-4bea-a6bd-58716c8abcc2",
+          "name": "Camera",
+          "description": "Mo ta ve Camera",
+          "type_number": 30002,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "0522779a-8c95-4486-9296-ffb082fa5b6d",
+          "model_name": "HUE004-0003",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "371e6b66-df74-427c-9aec-b57376bed40b",
+          "name": "Cảm biến quét tay",
+          "description": "Mo ta ve Cảm biến quét tay",
+          "type_number": 30001,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "0522779a-8c95-4486-9296-ffb082fa5b6d",
+          "model_name": "HUE004-0002",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "b99048f0-1e2e-4a8b-b261-f66cad854199",
+          "name": "Cảm biến chuyển động",
+          "description": "Mo ta ve Cảm biến chuyển động",
+          "type_number": 30000,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "0522779a-8c95-4486-9296-ffb082fa5b6d",
+          "model_name": "HUE004-0001",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smart light",
+      "group_type_number": 1,
+      "id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+      "image_uri": "https://huepress.vn/images/device_group_types/default.png",
+      "created": "2022-09-07T21:17:55+07:00",
+      "updated": null,
+      "device_types": [
+        {
+          "id": "0ae8b6ab-6d45-4e9e-8a73-8c4af52109e1",
+          "name": "Đèn trang trí để bàn RGBYW",
+          "description": "Mo ta ve Đèn trang trí để bàn RGBYW",
+          "type_number": 24,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0024",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "0dc3fc86-8c5e-4542-b81d-706bdc2a9c2f",
+          "name": "Đèn trang trí góc tường RGBW",
+          "description": "Mo ta ve Đèn trang trí góc tường RGBW",
+          "type_number": 18,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0018",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "0e935261-78bb-4dd4-a82e-b8923392c87b",
+          "name": "Đèn diệt khuẩn RGBW+UV",
+          "description": "Mo ta ve Đèn diệt khuẩn RGBW+UV",
+          "type_number": 29,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0029",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "158b3ce6-9d84-4c9a-9505-51ece3f325d2",
+          "name": "Đèn tròn RGBW",
+          "description": "Mo ta ve Đèn tròn RGBW",
+          "type_number": 1,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0001",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "17b34a0a-e263-410f-986d-1665f3274fc9",
+          "name": "Đèn chiếu điểm RGBYW",
+          "description": "Mo ta ve Đèn chiếu điểm RGBYW",
+          "type_number": 13,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0013",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "22dd7f6a-cef7-47a0-9d0d-435ea0ac240e",
+          "name": "Đèn trang trí khác RGBW",
+          "description": "Mo ta ve Đèn trang trí khác RGBW",
+          "type_number": 26,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0026",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "478b982e-4dd2-4c9f-a5c6-a20efc86af5a",
+          "name": "Đèn trang trí góc tường RGBCW",
+          "description": "Mo ta ve Đèn trang trí góc tường RGBCW",
+          "type_number": 19,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0019",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "4a11c955-3645-4729-aea5-3e7a5417646a",
+          "name": "Đèn trang trí khác RGBYW",
+          "description": "Mo ta ve Đèn trang trí khác RGBYW",
+          "type_number": 28,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0028",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "72144422-081c-49bd-b823-692c6c4a75a9",
+          "name": "Đèn quả nhót RGBW",
+          "description": "Mo ta ve Đèn quả nhót RGBW",
+          "type_number": 14,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0014",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "74a711c0-fbf3-4299-8adc-2a874d843bcb",
+          "name": "Đèn trang trí để bàn RGB",
+          "description": "Mo ta ve Đèn trang trí để bàn RGB",
+          "type_number": 21,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0021",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "76dd03d5-9f4f-47ec-a162-6b3bff24a6ba",
+          "name": "Đèn ốp trần RGBYW",
+          "description": "Mo ta ve Đèn ốp trần RGBYW",
+          "type_number": 6,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0006",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "80556ee5-3c17-41ef-928a-183c3b988dca",
+          "name": "Đèn quả nhót RGBYW",
+          "description": "Mo ta ve Đèn quả nhót RGBYW",
+          "type_number": 16,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0016",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "891553d1-94fc-4778-8983-f6790bb47064",
+          "name": "Đèn diệt khuẩn RGBYW+UV",
+          "description": "Mo ta ve Đèn diệt khuẩn RGBYW+UV",
+          "type_number": 31,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0031",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "9001f0d5-767d-417e-a0dd-ebca2cd3f31c",
+          "name": "Đèn dây RGBCW",
+          "description": "Mo ta ve Đèn dây RGBCW",
+          "type_number": 9,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0009",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "90bc4324-02d8-4bc5-96d0-a7799bddc35f",
+          "name": "Đèn trang trí để bàn RGBCW",
+          "description": "Mo ta ve Đèn trang trí để bàn RGBCW",
+          "type_number": 23,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0023",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "93445395-cb42-40dd-8549-0be9f1019b1b",
+          "name": "Đèn ốp trần RGBCW",
+          "description": "Mo ta ve Đèn ốp trần RGBCW",
+          "type_number": 5,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0005",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "95e0da7c-4f1d-40b3-95c4-2c3d38ab7ae9",
+          "name": "Đèn chiếu điểm RGBCW",
+          "description": "Mo ta ve Đèn chiếu điểm RGBCW",
+          "type_number": 12,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0012",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "974c3b2d-03af-43c0-bb4e-36a6cc229cd5",
+          "name": "Đèn ốp trần RGBW",
+          "description": "Mo ta ve Đèn ốp trần RGBW",
+          "type_number": 4,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0004",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "9984a67d-2eb1-47bc-9619-5f3683c1beef",
+          "name": "Đèn dây RGB",
+          "description": "Mo ta ve Đèn dây RGB",
+          "type_number": 7,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0007",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "9f8234a3-cf54-40cd-b452-477f80d39010",
+          "name": "Đèn trang trí khác RGB",
+          "description": "Mo ta ve Đèn trang trí khác RGB",
+          "type_number": 25,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0025",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "a5e186b6-4c73-4a05-ae65-b5692296a810",
+          "name": "Đèn diệt khuẩn RGBCW+UV",
+          "description": "Mo ta ve Đèn diệt khuẩn RGBCW+UV",
+          "type_number": 30,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0030",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "ba5a89ed-a673-49a3-9e02-a82ec8d3880d",
+          "name": "Đèn chiếu điểm RGBW",
+          "description": "Mo ta ve Đèn chiếu điểm RGBW",
+          "type_number": 11,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0011",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "c030a6ee-65c0-4206-8b16-57d05835357b",
+          "name": "Đèn âm trần",
+          "description": "Mo ta ve Đèn âm trần",
+          "type_number": 30003,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0032",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "d25e4ecf-54c5-427e-81da-73d7deeeeb22",
+          "name": "Đèn quả nhót RGBCW",
+          "description": "Mo ta ve Đèn quả nhót RGBCW",
+          "type_number": 15,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0015",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "d42df49b-6d13-4d3e-9379-b61b2828acd9",
+          "name": "Đèn tròn RGBCW",
+          "description": "Mo ta ve Đèn tròn RGBCW",
+          "type_number": 2,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0002",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "dad9ffd5-10e0-4eab-830a-224e2f5be941",
+          "name": "Đèn trang trí góc tường RGB",
+          "description": "Mo ta ve Đèn trang trí góc tường RGB",
+          "type_number": 17,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0017",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "dbe052c0-5dd8-4258-b299-f97755dbaae9",
+          "name": "Đèn dây RGBW",
+          "description": "Mo ta ve Đèn dây RGBW",
+          "type_number": 8,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0008",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "e840c8ba-8230-49e1-b908-9400bba40538",
+          "name": "Đèn trang trí để bàn RGBW",
+          "description": "Mo ta ve Đèn trang trí để bàn RGBW",
+          "type_number": 22,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0022",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "ec09b7e8-4762-4705-be82-c889dd815ab3",
+          "name": "Đèn trang trí khác RGBCW",
+          "description": "Mo ta ve Đèn trang trí khác RGBCW",
+          "type_number": 27,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0027",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "f9b0093a-11a4-4382-a48a-3d4540241096",
+          "name": "Đèn trang trí góc tường RGBYW",
+          "description": "Mo ta ve Đèn trang trí góc tường RGBYW",
+          "type_number": 20,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0020",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "fa0ecdce-51eb-4d16-8a22-ffde62cbe982",
+          "name": "Đèn dây RGBYW",
+          "description": "Mo ta ve Đèn dây RGBYW",
+          "type_number": 10,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0010",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "fe42d9a4-375f-4795-b9ee-8263911319f6",
+          "name": "Đèn tròn RGBYW",
+          "description": "Mo ta ve Đèn tròn RGBYW",
+          "type_number": 3,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "138a2f2f-8164-4d9f-b39a-08e8de26dd7d",
+          "model_name": "HUE001-0003",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smart switch/plug",
+      "group_type_number": 2,
+      "id": "1957e2fa-f549-428e-92c2-2479dc3f009a",
+      "image_uri": "https://huepress.vn/images/device_group_types/default.png",
+      "created": "2022-09-07T21:17:55+07:00",
+      "updated": null,
+      "device_types": [
+        {
+          "id": "646eb394-993e-45ca-90eb-7a5bce093c14",
+          "name": "Công tắc thông minh",
+          "description": "Mo ta ve Công tắc thông minh",
+          "type_number": 10001,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "1957e2fa-f549-428e-92c2-2479dc3f009a",
+          "model_name": "HUE002-0002",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "07526c38-f4d9-450c-ab31-417520c9a368",
+          "name": "Ổ cắm thông minh",
+          "description": "Mo ta ve Ổ cắm thông minh",
+          "type_number": 32,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "1957e2fa-f549-428e-92c2-2479dc3f009a",
+          "model_name": "HUE002-0001",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": "2023-05-29T16:09:14.728092+07:00",
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smart Remote Controller",
+      "group_type_number": 3,
+      "id": "6c044bde-8129-4741-bab6-6cf77dede243",
+      "image_uri": "https://huepress.vn/images/device_group_types/default.png",
+      "created": "2022-09-07T21:17:55+07:00",
+      "updated": null,
+      "device_types": [
+        {
+          "id": "30890ab9-705d-47f9-a647-fb2e8b91c6eb",
+          "name": "ĐK thông minh loại 1",
+          "description": "Mo ta ve ĐK thông minh loại 1",
+          "type_number": 20000,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "6c044bde-8129-4741-bab6-6cf77dede243",
+          "model_name": "HUE003-0001",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        },
+        {
+          "id": "614f5afb-23ee-488d-a199-08660772581f",
+          "name": "ĐK thông minh loại 2",
+          "description": "Mo ta ve ĐK thông minh loại 2",
+          "type_number": 20001,
+          "chip_id": "5a19331b-aff0-4fcb-b23d-dfd53faa024c",
+          "device_group_type_id": "6c044bde-8129-4741-bab6-6cf77dede243",
+          "model_name": "HUE003-0002",
+          "manufacturer_name": "Huepress",
+          "created": "2022-09-07T21:17:55+07:00",
+          "updated": null,
+          "chip": {
+            "name": "ESP",
+            "module": "8266"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {}
+}
